@@ -1,0 +1,73 @@
+/* Objetos generales */
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+h1{
+    color: rgb(91, 91, 221);
+    text-align: center;
+    font-size: 9rem;
+}
+
+h2{
+    text-align: center;
+    font-size: 6rem;
+}
+
+/* clases */
+span{
+    font-size: 2rem;
+    color: rgb(91, 91, 221);
+}
+.escritor-name{
+    font-size: 3rem;
+    text-align: center;
+}
+.escritor-img{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+.pie-pag{
+    color: black;
+    text-align: center;
+    background-color: rgb(91, 91, 221);
+    padding: 2rem;
+}
+.reason u{
+    text-decoration: none;
+    text-align: center;
+}
+
+.navegator-bg{
+    background-color: rgb(91, 91, 221);
+}
+.navegator{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navegator a{
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+
+.imagen-principal{
+    display: flex;
+    margin: auto;
+}
+.relacionado{
+    display: flex;
+    margin: auto;
+}
+.re{
+    font-size: 3rem;
+    color: rgb(91, 91, 221);
+}

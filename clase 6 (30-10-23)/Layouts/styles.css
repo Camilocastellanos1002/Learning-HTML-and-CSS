@@ -1,0 +1,72 @@
+/* regla de estilos en conseso
+    1REM : 10 PX */
+/* forma de activar de forma correcta el padding */
+.html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+/* estilo a la clase padre */
+.container{
+    background-color: chocolate;
+    /* por defecto, los elementos se alinear por bloque, uno detras del otro, por lo que se debe activar el flexbox para  cambiar la posicion */
+    display: flex;
+
+    /* el valor por defecto del flex es row, buena practica es especificarla */
+    flex-direction: row;
+
+    /* genera espacio entre los elementos de forma horizontal */
+    justify-content: center;
+
+    /* flex-direction: column;
+    align-items: flex-start; */
+
+    /* forma de alinear los elementos */
+    align-items: center;
+    color: white;
+    /* dar grososr al container */
+    padding: 1rem;
+    /* espacio entre los espacios, pueden extralimitar el contenedor (salirse) */
+    gap: 6rem;
+    /* wrap respeta el espacio del contenedor, si es nesesario genera otra linea */
+    /* flex-wrap: wrap; */
+    flex-wrap: nowrap;
+
+}
+
+/* estilo a las clases hijos */
+.element1{
+    background-color: brown;
+    /* cambiar la posicion de un elemento, 1 seria el elemento */
+    order: 1; 
+}
+.element2{
+    background-color: blue;
+    flex-basis: 8rem;
+}
+.element3{
+    background-color: violet;
+}
+.element4{
+    background-color: blueviolet;
+    /* cambiar la posicio de un elemento, con -1 sera el primer elemento */
+    order: -1;
+}
+.element5{
+    background-color: orange;
+    /* forma de controlar la forma del elemento de forma especifica */
+    flex-basis: 20rem;
+    
+}
+.element6{
+    background-color: green;
+}
+.element7{
+    background-color: yellow;
+}
+.element8{
+    background-color: black;
+    
+
+}

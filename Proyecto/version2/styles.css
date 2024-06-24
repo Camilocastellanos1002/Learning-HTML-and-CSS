@@ -1,0 +1,109 @@
+/*1 REM = 10 px*/
+
+html {
+    font-size: 62.5%;
+    background-color: ivory;
+}
+
+body {
+    font-size: 16px;
+}
+
+
+h1 {
+    color: rgb(187, 11, 11);
+    font-size: 4rem;
+}
+
+h2{
+    color: darkblue;
+    text-decoration: solid;
+}
+
+
+
+
+span {
+    font-size: 5rem;
+    color:rgb(58, 12, 223);
+}
+
+.contenedor{
+    width: 100rem;
+    /*margin-top: 30rem;
+    margin-right: auto;
+    margin-bottom: 30rem;
+    margin-left: auto;*/
+    margin: auto ;
+    
+}
+
+.main-banner{
+    display: flex;
+    align-items: center;   
+}
+
+.banner {
+    margin-left: 18rem;
+    justify-content: space-between;
+    background-color: aqua;
+}
+ 
+    
+.banner a{
+   color: rgb(0, 0, 0);
+   text-decoration: none;
+   font-size: 2.5rem;
+   
+}
+
+.banner a:hover{
+    color: rgb(218, 41, 41);
+}
+
+
+
+.imagenes{
+    position: relative;
+    display: inline-block;
+}
+
+.imagen-texto{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(90,0,10,0.4);
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+  
+  /* position the text centrally*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity .5s;
+}
+
+.imagen{
+    line-height: 0;
+}
+
+.imagenes:hover .imagen-texto {
+    opacity: 1;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 1rem;
+}
+
+
+.contacto ul li{
+    list-style: none;
+    align-items: center;
+}

@@ -1,0 +1,100 @@
+html{
+    font-size: 65%;
+    background-color: white;
+}
+body{
+    margin: 20rem;
+    padding: auto;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 0.5rem solid black;
+
+}
+@media (min-width:100px){
+    .Informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    }
+}
+.cuadro{
+    padding: auto;
+    border: 5rem;
+    border-style: solid;
+}
+.titulo{
+    padding: .5rem;
+    background-color: rgb(105, 115, 228);
+    padding: .3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.texto1{
+    margin: 0 auto;
+    padding: 1rem;
+}
+.texto2{
+    margin: 0 auto;
+    padding: 1rem;
+}
+.titulo a{
+    color: white;
+    padding: .3rem;
+    margin: .5rem;
+    background-color:rgb(221, 39, 39);
+    color: white;
+    border-radius: 2rem;
+    text-align: center;
+}
+.Informacion{
+    padding: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.Contenedor{
+    max-width: 100rem;;
+    margin: auto auto;
+}
+.Informacion a{
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2rem;
+}
+.image{
+    padding: .5rem;
+    margin: .5rem;
+}
+.more{
+    text-align: left;
+}
+.Añadir{
+    background-color: black;
+    color: white;
+    padding: .3rem;
+}
+.boton1{
+    margin: .3rem;
+    background-color: red;
+}
+.boton2{
+    margin: .3rem;
+    background-color: green;
+}
+.boton3{
+    margin: .3rem;
+    background-color: blue;
+}
+.boton4{
+    margin: .3rem;
+    background-color: purple;
+}
+.boton5{
+    margin: .3rem;
+    background-color: black ;
+}
